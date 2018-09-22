@@ -2,5 +2,11 @@
   "description": "Test case to demonstrate polymer lint is failing with mixins.",
   "dependencies": {
     "@polymer/polymer": "^3.0.0"
+  },
+  "scripts": {
+    "test": "polymer lint"
+  },
+  "devDependencies": {
+    "polymer-cli": "^1.8.0"
   }
 }
